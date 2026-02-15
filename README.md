@@ -1,4 +1,5 @@
 # CSV Insights Dashboard
+## Live Hosted Link: https://csv-insights-dashboard-42v3zlabh-rishis-projects-b0aceee0.vercel.app/
 
 A full-stack web app that allows users to upload a CSV file and quickly explore statistical insights along with an AI-generated summary.
 
