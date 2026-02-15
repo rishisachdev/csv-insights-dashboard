@@ -20,7 +20,7 @@ function App() {
   const [question, setQuestion] = useState("");
   const [answer, setAnswer] = useState(null);
 
-  const BACKEND_URL = "http://localhost:8000";
+  const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 
   const handleUpload = async (e) => {
     const file = e.target.files[0];
