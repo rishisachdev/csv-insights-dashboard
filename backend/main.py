@@ -17,7 +17,7 @@ model = None
 if GEMINI_API_KEY:
     try:
         genai.configure(api_key=GEMINI_API_KEY)
-        model = genai.GenerativeModel("gemini-2.5-flash")
+        model = genai.GenerativeModel("models/gemini-2.5-flash")
         llm_available = True
     except Exception:
         llm_available = False
